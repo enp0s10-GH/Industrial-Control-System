@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7a0381a9-3424-4fc7-acac-bc6179da4953" name="enforcer">
+        <fileTransfer rootFolder="/var/www/ics.enforcerdev.de" accessType="SFTP" host="49.12.215.197" port="22" sshConfigId="ca685c6c-ac53-4a34-b32c-afa1216da80e" sshConfig="root@49.12.215.197">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
