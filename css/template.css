@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.replacehw-container {
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 25%;
+    border: 2px solid rgba(0,0,0,.5);
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #242526;
+
+}
+.replacehw-container h1 {
+    font-size: 40px;
+    color: #ccc;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+.replacehw-container input[type=text] {
+
+    color: #ccc;
+    outline: none;
+    background-color: transparent;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 25px;
+    height: 55px;
+    border: 2px solid rgba(0,0,0,.5);
+    padding: 5px;
+    text-align: center;
+    border-radius: 13px;
+}
+.replacehw-container #submit {
+    outline: none;
+    background-color: transparent;
+    margin-top: 15px;
+    font-size: 25px;
+    height: 55px;
+    border: 2px solid rgba(0,0,0,.5);
+    padding: 5px;
+    text-align: center;
+    border-radius: 13px;
+    width: 50%;
+    font-weight: bold;
+    transition: .5s ease-in;
+    color: #ccc;
+}
+.replacehw-container #submit:hover {
+    transition: .5s ease-in;
+    background-color: #695CFE;
+
+}
+
+/* --------- */
+
+.installhw-container {
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 75%;
+    border: 2px solid rgba(0,0,0,.5);
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #242526;
+
+}
+.installhw-container h1 {
+    font-size: 40px;
+    color: #ccc;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+.installhw-container input[type=text] {
+
+    color: #ccc;
+    outline: none;
+    background-color: transparent;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 25px;
+    height: 55px;
+    border: 2px solid rgba(0,0,0,.5);
+    padding: 5px;
+    text-align: center;
+    border-radius: 13px;
+}
+.installhw-container #submit {
+    outline: none;
+    background-color: transparent;
+    margin-top: 15px;
+    font-size: 25px;
+    height: 55px;
+    border: 2px solid rgba(0,0,0,.5);
+    padding: 5px;
+    text-align: center;
+    border-radius: 13px;
+    width: 50%;
+    font-weight: bold;
+    transition: .5s ease-in;
+    color: #ccc;
+}
+.installhw-container #submit:hover {
+    transition: .5s ease-in;
+    background-color: #695CFE;
+
+}
+.hwdata-container {
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 20%;
+    border: 2px solid #ccc;
+    padding: 15px;
+	 text-align: center;
+	 width: 90%;
+}
+.hwdata-container #hwdata {
+	 width: 100%;
+    color: #ccc;
+    font-size: 20px;
+
+}
+.table{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    border-collapse: collapse;
+}
+.table th, .table td {
+    padding: 15px;
+    font-size: 25px;
+    border: 2px solid #18191a;
+}
+.table th {
+    font-weight: bold;
+    background-color: #3a3b3c;
+    color: #ccc;
+}
+.table td {
+    background-color: #242526;
+    color: #ccc;
+}
+.table tr {
+    border: 1px solid #18191a;
+
+}
+#topic {
+
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 8%;
+    color: #ccc;
+    text-align: center;
+
+}
+.deleteserver-container {
+    width: 90%;
+    height: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border: 2px solid rgba(0,0,0,.5);
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #242526;
+
+}
+.deleteserver-container input[type=text] {
+    color: #ccc;
+    outline: none;
+    background-color: transparent;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 25px;
+    height: 55px;
+    border: 2px solid rgba(0,0,0,.5);
+    padding: 5px;
+    text-align: center;
+    border-radius: 13px;
+}
+.deleteserver-container #submit {
+    outline: none;
+    background-color: transparent;
+    margin-top: 15px;
+    font-size: 25px;
+    height: 55px;
+    border: 2px solid rgba(0,0,0,.5);
+    padding: 5px;
+    text-align: center;
+    border-radius: 13px;
+    width: 50%;
+    font-weight: bold;
+    transition: .5s ease-in;
+    color: #ccc;
+}
+.deleteserver-container h1 {
+    font-size: 40px;
+    color: #ccc;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.addserver-container {
+    width: 90%;
+    height: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border: 2px solid rgba(0,0,0,.5);
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #242526;
+
+}
+.addserver-container input[type=text] {
+    color: #ccc;
+    outline: none;
+    background-color: transparent;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 25px;
+    height: 55px;
+    border: 2px solid rgba(0,0,0,.5);
+    padding: 5px;
+    text-align: center;
+    border-radius: 13px;
+}
+.addserver-container #submit {
+    outline: none;
+    background-color: transparent;
+    margin-top: 15px;
+    font-size: 25px;
+    height: 55px;
+    border: 2px solid rgba(0,0,0,.5);
+    padding: 5px;
+    text-align: center;
+    border-radius: 13px;
+    width: 50%;
+    font-weight: bold;
+    transition: .5s ease-in;
+    color: #ccc;
+}
+.addserver-container h1 {
+    font-size: 40px;
+    color: #ccc;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#query-error {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 50%;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    color: #ccc;
+    font-size: 25px;
+    padding: 8px;
+    background-color: rgba(255,0,0,.3);
+}
+button[type=submit] {
+    background-color: #695CFEFF;
+    border: none;
+    border-radius: 15px;
+    color: #ccc;
+    padding: 2px;
+    transition: .5s;
+}
+button[type=submit]:hover {
+    color: white;
+}
+.icon {
+    border-radius: 6px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
